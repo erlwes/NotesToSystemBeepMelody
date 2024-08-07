@@ -24,7 +24,6 @@ $BPM = 125
 
 # Melody - each line defines note, duration and delay. This example is "Happy birthday":
 $melody = @(
-
     #Happy bithday to you
     @("G4", "quarter", "eighth"),
     @("G4", "quarter", "sixteenth"),
