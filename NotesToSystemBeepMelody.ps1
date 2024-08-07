@@ -19,7 +19,7 @@ function Precalculate-Melody {
     )
 
     # Calculate time in milliseconds for a quarter note
-    $quarterNoteDuration = [math]::Round(60000 / $BPM)    
+    $quarterNoteDuration = [math]::Round(60000 / $BPM)
     $eighthNoteDuration = [math]::Round($quarterNoteDuration / 2)
     $sixteenthNoteDuration = [math]::Round($quarterNoteDuration / 4)
  
@@ -63,7 +63,6 @@ $BPM = 125
 
 # Melody - each line defines note, duration and delay. This example is "Happy birthday":
 $melody = @(
-
     #Happy bithday to you
     @("G4", "quarter", "eighth"),
     @("G4", "quarter", "sixteenth"),
