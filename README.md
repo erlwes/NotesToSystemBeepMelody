@@ -1,7 +1,7 @@
 # NotesToSystemBeepMelody
 Script that will convert notes into a melody and play them using `[System.Console]::Beep`
 
-# WHY? 😂
+# WHY? No good answer, really 🙈
 
 I ran the idea by my friend ChatGPT yesterday (zero alcohol involved. true story).
 
@@ -14,8 +14,8 @@ The AI needed _some_ guidance, like
 
 My idea was to take the MusicXML-format as input, but all the examples was paywalled so...
 
-# Example
 
+# Example
 The script needs a BMP and a melody, specified like this, the rest is taken care of by lookup-tables and math:
 
 ```PowerShell
@@ -61,7 +61,6 @@ $melody = @(
 
 
 # Example 2 (Work-in-progress)
-
 ```PowerShell
 $BPM = 113
 $melody = @(
