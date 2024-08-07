@@ -1,18 +1,18 @@
 # NotesToSystemBeepMelody
 Script that will convert notes into a melody and play them using `[System.Console]::Beep`
 
-This is the result in me, itroducing an idea to my friend ChatGPT. Zero alcohol involved (true story).
+# WHY? 😂
 
-It needed _some_ guidance
-1. Feeding it with a frequency lookup-table. The suggested frequencies was off to begin with.
-2. The need for a BPM parameter, It wanted to use generic delays "for simplicity"
-3. Providing the desired formula to calculate durations
-4. Telling it to bake/pre-calulate the melody for increased playback performance, rather than doing it live in playback function (probably unnessasary, but fun)
-5. Telling it to use an ORDERED hashtable for storing the melody (😂 LOL)
+I ran the idea my friend ChatGPT yesterday (zero alcohol involved. true story).
 
+The AI needed _some_ guidance, like
+1. A frequency lookup-table I found on Google, because the suggested frequencies was off.
+2. The need for a BPM parameter, AI wanted to use generic delays "for simplicity"
+3. Providing the desired formula to calculate durations, again it used static values "for simplicity".
+4. Telling it to bake/pre-calulate the melody for increased playback performance, rather than doing it live in playback function (probably unnessasary on todays computers, but fun)
+5. And finally, telling it to use an ORDERED hashtable for storing the melody! 😂
 
 My idea was to take the MusicXML-format as input, but all the examples was paywalled so...
-
 
 # Example
 
