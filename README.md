@@ -73,9 +73,9 @@ $melody = @(
     @("E4", "sixteenth", "sixteenth"),
 
     # Give you up
-    @("B4", "quarter", "eighth"),
-    @("B4", "quarter", "eighth"),
-    @("A4", "quarter", "eighth"),
+    @("B4", "quarter", "sixteenth"),
+    @("B4", "quarter", "sixteenth"),
+    @("A4", "quarter", "quarter"),
 
     # Nev-er gon-na
     @("D4", "sixteenth", "sixteenth"),
@@ -84,9 +84,9 @@ $melody = @(
     @("E4", "sixteenth", "sixteenth"),
 
     # let you down
-    @("A4", "quarter", "eighth"),
-    @("A4", "quarter", "eighth"),
-    @("G4", "quarter", "eighth"),
+    @("A4", "quarter", "sixteenth"),
+    @("A4", "quarter", "sixteenth"),
+    @("G4", "quarter", "quarter"),
 
     # Nev-er gon-na
     @("D4", "sixteenth", "sixteenth"),
@@ -95,14 +95,14 @@ $melody = @(
     @("E4", "sixteenth", "sixteenth"),
     
     # Run a______ round
-    @("G4", "eighth", "eighth"),
-    @("A4", "quarter", "eighth"),
-    @("D4", "quarter", "eighth"),
+    @("G4", "quarter", "sixteenth"),
+    @("A4", "quarter", "sixteenth"),
+    @("D4", "quarter", "quarter"),
 
     # and de-serty you
-    @("D4", "quarter", "eighth"),
+    @("D4", "quarter", "sixteenth"),
     @("D4", "sixteenth", "sixteenth"),
-    @("A4", "eighth", "eighth"),
+    @("A4", "eighth", "sixteenth"),
     @("G4", "quarter", "quarter")
 )
 $preCalculatedMelody = Precalculate-Melody -melody $melody -BPM $BPM
