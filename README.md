@@ -17,7 +17,7 @@ My idea was to take the MusicXML-format as input, but all the examples was paywa
 
 
 # Example
-The script needs a BMP and a melody, specified like this, the rest is taken care of by lookup-tables and math:
+The script needs a BMP and notes to make a playable melody. It looks like this:
 
 ```PowerShell
 # Set BPM for the melody. This is used to calculate note and delay durations.
