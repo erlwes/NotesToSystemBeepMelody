@@ -106,4 +106,5 @@ $melody = @(
     @("G4", "quarter", "quarter")
 )
 $preCalculatedMelody = Precalculate-Melody -melody $melody -BPM $BPM
+Play-Melody -preCalculatedMelody $preCalculatedMelody
 ```
