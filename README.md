@@ -3,7 +3,7 @@ Script that will convert notes into a melody and play them using `[System.Consol
 
 # WHY? 😂
 
-I ran the idea my friend ChatGPT yesterday (zero alcohol involved. true story).
+I ran the idea by my friend ChatGPT yesterday (zero alcohol involved. true story).
 
 The AI needed _some_ guidance, like
 1. A frequency lookup-table I found on Google, because the suggested frequencies was off.
