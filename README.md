@@ -1,11 +1,12 @@
 # NotesToSystemBeepMelody
 Script that will convert notes into a melody and play them using `[System.Console]::Beep`
 
-# WHY? No good answer, really 🤦‍♂️
+# BUT WHYYY? 🤦‍♂️
 
-I ran an idea by my friend ChatGPT the other night (zero alcohol involved. true story).
+I had an idea, that one could play music using `[System.Console]::Beep` if one provided the correnct frequency, duration and added delays.
+I quickly discovered that this was already a thing on Reddit, but I wanted to take it one step further, and then asked my friend ChatGPT to help ...
 
-The AI needed _some_ guidance, like
+The AI needed _some_ guidance, like:
 1. A frequency lookup-table I found on Google, because the suggested frequencies was off.
 2. The need for a BPM parameter, AI wanted to use generic delays "for simplicity"
 3. Providing the desired formula to calculate durations, again it used static values "for simplicity".
