@@ -1,7 +1,7 @@
 # NotesToSystemBeepMelody
 Script that will convert notes into a melody and play them using `[System.Console]::Beep`
 
-# WHY? No good answer, really 🙈
+# WHY? No good answer, really 🤦‍♂️
 
 I ran the idea by my friend ChatGPT yesterday (zero alcohol involved. true story).
 
