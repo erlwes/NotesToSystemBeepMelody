@@ -59,3 +59,51 @@ $melody = @(
     @("C5", "quarter", "eighth")
 )
 ```
+
+
+# Example 2 (Work-in-progress)
+
+```PowerShell
+$BPM = 113
+$melody = @(
+    # Nev-er gon-na
+    @("D4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+    @("G4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+
+    # Give you up
+    @("B4", "quarter", "eighth"),
+    @("B4", "quarter", "eighth"),
+    @("A4", "quarter", "eighth"),
+
+    # Nev-er gon-na
+    @("D4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+    @("G4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+
+    # let you down
+    @("A4", "quarter", "eighth"),
+    @("A4", "quarter", "eighth"),
+    @("G4", "quarter", "eighth"),
+
+    # Nev-er gon-na
+    @("D4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+    @("G4", "sixteenth", "sixteenth"),
+    @("E4", "sixteenth", "sixteenth"),
+    
+    # Run a______ round
+    @("G4", "eighth", "eighth"),
+    @("A4", "quarter", "eighth"),
+    @("D4", "quarter", "eighth"),
+
+    # and de-serty you
+    @("D4", "quarter", "eighth"),
+    @("D4", "sixteenth", "sixteenth"),
+    @("A4", "sixteenth", "sixteenth"),
+    @("G4", "quarter", "sixteenth")
+)
+$preCalculatedMelody = Precalculate-Melody -melody $melody -BPM $BPM
+```
