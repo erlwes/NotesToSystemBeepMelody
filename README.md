@@ -10,7 +10,7 @@ The AI needed _some_ guidance, like
 2. The need for a BPM parameter, AI wanted to use generic delays "for simplicity"
 3. Providing the desired formula to calculate durations, again it used static values "for simplicity".
 4. Telling it to bake/pre-calulate the melody for increased playback performance, rather than doing it live in playback function (probably unnessasary on todays computers, but fun)
-5. And finally, telling it to use an ORDERED hashtable for storing the melody! 😂
+5. And finally, telling it that the hashtable for storing the melody has to be ORDERED! 😂
 
 My idea was to take the MusicXML-format as input, but all the examples was paywalled so...
 
