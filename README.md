@@ -102,8 +102,8 @@ $melody = @(
     # and de-serty you
     @("D4", "quarter", "eighth"),
     @("D4", "sixteenth", "sixteenth"),
-    @("A4", "sixteenth", "sixteenth"),
-    @("G4", "quarter", "sixteenth")
+    @("A4", "eighth", "eighth"),
+    @("G4", "quarter", "quarter")
 )
 $preCalculatedMelody = Precalculate-Melody -melody $melody -BPM $BPM
 ```
