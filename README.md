@@ -58,6 +58,8 @@ $melody = @(
     @("D5", "quarter", "sixteenth"),
     @("C5", "quarter", "eighth")
 )
+$preCalculatedMelody = Precalculate-Melody -melody $melody -BPM $BPM
+Play-Melody -preCalculatedMelody $preCalculatedMelody
 ```
 
 
